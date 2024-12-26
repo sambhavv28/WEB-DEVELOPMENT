@@ -1,0 +1,559 @@
+.nevigation{
+    background-image: url(jklu.jpg);
+    /* border: 2px solid red; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0505058f;  
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 70px;
+    text-decoration: none;
+    /* background-color: #dddddd;  */
+}
+
+li a:hover:not(.active){
+    background-color: rgb(255, 137, 113);
+}
+
+.active{
+    background-color: rgb(80, 133, 193);
+}
+
+.button1{
+    background-color: transparent;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 60px;
+    cursor: pointer;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button1:hover{
+    background-color: rgb(255, 137, 113);
+}
+
+.button2{
+    background-color: transparent;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 480px;
+    cursor: pointer;
+    /* float: right; */
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+}
+
+.button2:hover{
+    background-color: rgb(255, 137, 113);
+}
+
+.button3{
+    background-color: rgb(255, 137, 113);;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 380px;
+    cursor: pointer;
+    /* float: right;  */
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+}
+
+.button4{
+    background-color:transparent;
+    border-radius: 12px;
+    border-color: rgb(116, 143, 206);
+    color: rgb(116, 143, 206);
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 40px; */
+    cursor: pointer;
+}
+
+.button4:hover{
+    background-color: orange;
+    color: white;
+}
+
+
+.first h1{
+    color: grey;
+    font-weight: bolder;
+    font-size: 50px;
+    border-bottom: 1px solid orange;
+    border-width: 7px;
+}
+
+.first{
+    /* border: 2px solid black;  */
+    height: 400px;
+}
+.first p{
+    width: 600px;
+    /* border: 2px solid blue; */
+    font-size: 25px;
+    color: gray;
+}
+
+.second{
+     /* border: 2px solid black; */
+    height: 400px;
+    background-image: url(class.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 600px;
+    padding-top: 150px;
+    padding-left: 10px;
+}
+
+.second h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    border-bottom: 5px solid  rgb(255, 137, 113);
+}
+
+.second p{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.button5{
+    background-color:transparent;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 40px; */
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button5:hover{
+    background-color: rgb(255, 137, 113);
+}
+
+.button6{
+    background-color:transparent;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 40px; */
+    cursor: pointer;
+    margin-left: 800px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button6:hover{
+    background-color: rgb(255, 137, 113);
+}
+
+.button7{
+    background-color:transparent;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 40px; */
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button7:hover{
+    background-color: rgb(255, 137, 113);
+}
+
+.button8{
+    background-color:transparent;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 40px; */
+    cursor: pointer;
+    margin-left: 1070px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button8:hover{
+    background-color: rgb(255, 137, 113);
+}
+
+.button9{
+    background-color:transparent;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 40px; */
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button9:hover{
+    background-color: rgb(255, 137, 113);
+}
+
+.third h1{
+    color: grey;
+    font-size: 50px;
+    font-weight: bolder;
+    border-bottom: 5px solid  rgb(255, 137, 113);
+}
+
+.third p{
+    color: gray;
+    font-size: larger;
+    /* font-weight: bold; */
+}
+
+.button10{
+    background-color:transparent;
+    border-radius: 12px;
+    border-color: rgb(43, 124, 239);
+    color: rgb(43, 124, 239);
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 40px; */
+    cursor: pointer;
+    margin-left: 1070px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button10:hover{
+    background-color: rgb(255, 137, 113);
+    color: white;
+}
+
+.button11{
+    background-color:transparent;
+    border-radius: 12px;
+    border-color: rgb(43, 124, 239);
+    color: rgb(43, 124, 239);
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 40px; */
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button11:hover{
+    background-color: rgb(255, 137, 113);
+    color: white;
+}
+
+.button12{
+    background-color:transparent;
+    border-radius: 12px;
+    border-color: rgb(43, 124, 239);
+    color: rgb(43, 124, 239);
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 40px; */
+    cursor: pointer;
+    margin-left: 1070px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button12:hover{
+    background-color: rgb(255, 137, 113);
+    color: white;
+}
+
+.button13{
+    background-color:transparent;
+    border-radius: 12px;
+    border-color: rgb(43, 124, 239);
+    color: rgb(43, 124, 239);
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 40px; */
+    cursor: pointer;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button13:hover{
+    background-color: rgb(255, 137, 113);
+    color: white;
+}
+
+.fourth{
+    display: flex;
+}
+
+.fifth{
+      /* border: 2px solid black;  */
+      height: 200px;
+      background-image: url(ok.jpeg);
+      background-repeat: no-repeat;
+      background-size: 1500px 600px;
+      padding-top: 150px;
+      padding-left: 10px;
+  }
+
+.fifth h1{
+    color: white;
+    font-size: 50px;
+    border-bottom: 5px solid  rgb(255, 137, 113);
+}  
+
+.fifth p{
+    color: white;
+    /* font-weight: bold; */
+    font-size: 25px;
+}
+
+.button14{
+    background-color:transparent;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 40px; */
+    cursor: pointer;
+    margin-left: 1070px; 
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button14:hover{
+    background-color: rgb(255, 137, 113);
+    color: white;
+}
+
+.button15{
+    background-color:transparent;
+    border-radius: 12px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 40px; */
+    cursor: pointer;
+    /* margin-left: 1070px; */
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button15:hover{
+    background-color: rgb(255, 137, 113);
+    color: white;
+}
+
+/* .sixth{
+    display: flex;
+} */
+
+.button16{
+    background-image: url(aca.jpg);
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    padding: 170px;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.button17{
+    background-image: url(resourse.jpg);
+    border: 2px solid black;
+    padding: 170px;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.button18{
+    background-image: url(anuv.jpg);
+    border: 2px solid black;
+    padding: 170px;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.seventh{
+    /* border: 2px solid black;   */
+    height: 300px;
+    background-image: url(yes.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 600px;
+    padding-top: 150px;
+    padding-left: 10px;
+}
+
+.seventh h1{
+    font-size: 50px;
+    color: white;
+    border-bottom: 5px solid  rgb(255, 137, 113);
+}
+
+.seventh p{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(255, 137, 113);
+}
+
+.eight{
+    font-size: 25px;
+    color: gray;
+    padding-left: 50px;
+    display: flex;
+}
+
+.eight p{
+    padding-left: 500px;
+    font-weight: bold;
+}
+
+/* .nine{
+    font-size: 25px;
+    color: gray;
+    float: right;
+} */
+
+.nine{
+    display: flex;
+    border-bottom: 5px solid orange;
+}
+
+.ten{
+    background-color: rgb(0, 0, 255);
+    opacity: 0.6;
+    border: 2px solid black;
+    height: 400px;
+}
+
+.ten p{
+    color: white;
+    width: 400px;
+}
+
+.ten ul{
+    text-align: center;
+}
+
+.last{
+    background-color: black;
+    border: 2px solid black;
+    height: 50px;
+}
+
+.last p{
+    color: white;
+    text-align: center;
+}
